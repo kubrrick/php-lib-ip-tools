@@ -1,0 +1,35 @@
+{
+  "name": "kubrick/lib-ip-tools",
+  "description": "Various IPv4 ans IPv6 Tools",
+  "type": "library",
+  "license": "WTFPL",
+  "keywords": [
+    "ip",
+    "ipv4",
+    "ipv6NA",
+    "network",
+    "mac",
+    "duid"
+  ],
+  "require" : {
+    "php": ">=8.2"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^7.3",
+    "laravel/pint": "^1.25",
+    "phpstan/phpstan": "^2.1",
+    "nesbot/carbon": "^3.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kubrick\\IpTools\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Clément Mouline",
+      "email": "clement@mouline.eu"
+    }
+  ],
+  "homepage": "https://clement.mouline.eu"
+}
